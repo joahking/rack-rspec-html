@@ -1,0 +1,17 @@
+= Rack RSpec HTML is a simple Rack application to:
+* browse your spec/ and features/ directory
+* run specs and feature files living there.
+
+== Installation
+
+copy rack_rspec_html.rb into your #{RAILS_ROOT}/spec directory
+
+== Starting
+  $ ruby -Ilib spec/rack_rspec_html.rb
+
+== Usage
+
+visit http://localhost:9292 to see your specs
+
+== NOTE
+I only use it for rails, but should not be difficult to extend
